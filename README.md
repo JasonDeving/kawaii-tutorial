@@ -1,4 +1,8 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Remix edition by Jason Chan to add kawaii components
+
+## Youtube Tutorial
+Watch it [here](https://www.youtube.com/watch?v=t-wDonlUpfs)
 
 ## Available Scripts
 

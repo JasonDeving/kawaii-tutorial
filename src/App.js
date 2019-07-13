@@ -1,25 +1,21 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import  { Container, Row, Col } from 'react-bootstrap';
+import  { Ghost, Cat, Mug } from 'react-kawaii';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Container>
+      <Row>
+        <Col>
+      	<Ghost size={240} mood="ko" color="#E0E4E8" />
+      	<Cat size={320} mood="sad" color="#596881" />
+      	<Mug size={170} mood="One of" color="#A6E191" />
+      	</Col>
+      </Row>
+    </Container>
+
   );
 }
 
